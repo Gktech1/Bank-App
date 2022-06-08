@@ -1,0 +1,16 @@
+C:\Users\Decagon\source\repos\BankTaskApp\BankTaskApp\obj\Debug\net5.0\BankTaskApp.csproj.AssemblyReference.cache
+C:\Users\Decagon\source\repos\BankTaskApp\BankTaskApp\obj\Debug\net5.0\BankTaskApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Decagon\source\repos\BankTaskApp\BankTaskApp\obj\Debug\net5.0\BankTaskApp.AssemblyInfoInputs.cache
+C:\Users\Decagon\source\repos\BankTaskApp\BankTaskApp\obj\Debug\net5.0\BankTaskApp.AssemblyInfo.cs
+C:\Users\Decagon\source\repos\BankTaskApp\BankTaskApp\obj\Debug\net5.0\BankTaskApp.csproj.CoreCompileInputs.cache
+C:\Users\Decagon\source\repos\BankTaskApp\BankTaskApp\bin\Debug\net5.0\BankTaskApp.exe
+C:\Users\Decagon\source\repos\BankTaskApp\BankTaskApp\bin\Debug\net5.0\BankTaskApp.deps.json
+C:\Users\Decagon\source\repos\BankTaskApp\BankTaskApp\bin\Debug\net5.0\BankTaskApp.runtimeconfig.json
+C:\Users\Decagon\source\repos\BankTaskApp\BankTaskApp\bin\Debug\net5.0\BankTaskApp.runtimeconfig.dev.json
+C:\Users\Decagon\source\repos\BankTaskApp\BankTaskApp\bin\Debug\net5.0\BankTaskApp.dll
+C:\Users\Decagon\source\repos\BankTaskApp\BankTaskApp\bin\Debug\net5.0\BankTaskApp.pdb
+C:\Users\Decagon\source\repos\BankTaskApp\BankTaskApp\obj\Debug\net5.0\BankTaskApp.dll
+C:\Users\Decagon\source\repos\BankTaskApp\BankTaskApp\obj\Debug\net5.0\refint\BankTaskApp.dll
+C:\Users\Decagon\source\repos\BankTaskApp\BankTaskApp\obj\Debug\net5.0\BankTaskApp.pdb
+C:\Users\Decagon\source\repos\BankTaskApp\BankTaskApp\obj\Debug\net5.0\BankTaskApp.genruntimeconfig.cache
+C:\Users\Decagon\source\repos\BankTaskApp\BankTaskApp\obj\Debug\net5.0\ref\BankTaskApp.dll
