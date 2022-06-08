@@ -34,7 +34,7 @@ namespace BankTaskApp.Business_Logic.Services
         }
 
 
-        public void CreateBankAccount(string accountName, decimal initialBalance, string accountType,
+        public void CreateBankAccount(Account account, string accountName, decimal initialBalance, string accountType,
             long accountNumber)
         {
             Account bankAccount = new Account(id, initialBalance, accountType,
