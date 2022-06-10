@@ -245,7 +245,7 @@ namespace BankTaskApp
             Console.WriteLine(depositAmount);
             customerCore.CustomerRegistration(firstName + " " + lastName, email, password,
                 accountType, phoneNumber);
-            long accountNumber = customerCore.accountNumber - 1;
+            long accountNumber = GetNewAccountNumber();
             accountService.CreateBankAccount(firstName + " " + lastName, depositAmount, accountType, accountNumber);
             Console.Clear();
             Console.WriteLine("Your AccountNumber is {0}", accountNumber);
@@ -496,8 +496,8 @@ namespace BankTaskApp
 
             }
             customerCore.CustomerRegistration(name, newEmail, newPassword, accountType, newPhoneNumber);
-            long accountNumber = customerCore.accountNumber - 1;
-            accountService.CreateBankAccount(name, depositAmount, accountType, accountNumber);
+            long accountNumber = GetNewAccountNumber();
+            accountService.CreateBankAccount(name, depositAmount, accountType,accountNumber);
             Console.WriteLine("Your AccountNumber is {0}", accountNumber);
             Console.WriteLine("You have successfully opened an account");
         }
@@ -521,6 +521,12 @@ namespace BankTaskApp
                 Console.WriteLine("Account number should be in 10 digit numbers");
             }
             printTable.PrintTableForAccountStatement(accountNumber);
+        }
+        private long GetNewAccountNumber()
+        {
+            Random random = new Random();
+            long NewAccountNumber = random.Next(230000000, 240000000);
+            return NewAccountNumber;
         }
 
     }

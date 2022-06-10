@@ -26,16 +26,9 @@ namespace BankTaskApp.Business_Logic.Services
         /// <param name="accountType"></param>
         /// <returns></returns>
 
-        public long GetNewAccountNumber()
-        {
-            Random random = new Random();
-            long NewAccountNumber = random.Next(230000000, 240000000);
-            return NewAccountNumber;
-        }
+        
 
-
-        public void CreateBankAccount(Account account, string accountName, decimal initialBalance, string accountType,
-            long accountNumber)
+        public void CreateBankAccount(string accountName, decimal initialBalance, string accountType,long accountNumber)
         {
             Account bankAccount = new Account(id, initialBalance, accountType,
                 accountNumber, accountName);

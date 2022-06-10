@@ -1,0 +1,96 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "BankTaskApp/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/BankTaskApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BankTaskApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BankTaskApp/1.0.0": {
+      "type": "project",
+      "path": "../BankTaskApp/BankTaskApp.csproj",
+      "msbuildProject": "../BankTaskApp/BankTaskApp.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "BankTaskApp >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Decagon\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Decagon\\source\\repos\\BankTaskApp\\BankTest2\\BankTest2.csproj",
+      "projectName": "BankTest2",
+      "projectPath": "C:\\Users\\Decagon\\source\\repos\\BankTaskApp\\BankTest2\\BankTest2.csproj",
+      "packagesPath": "C:\\Users\\Decagon\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Decagon\\source\\repos\\BankTaskApp\\BankTest2\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Decagon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\Decagon\\source\\repos\\BankTaskApp\\BankTaskApp\\BankTaskApp.csproj": {
+              "projectPath": "C:\\Users\\Decagon\\source\\repos\\BankTaskApp\\BankTaskApp\\BankTaskApp.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project BankTaskApp is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project BankTaskApp supports: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "BankTaskApp",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
