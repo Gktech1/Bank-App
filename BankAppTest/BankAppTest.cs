@@ -27,7 +27,7 @@ namespace BankAppTest
             //Expected
             var expected = 20345678901;
 
-            //Assert.Equal(expected, arrage);
+            Assert.Equal(expected, arrage);
             var count1 = Database.accountList.Count;
             Assert.NotNull(Database.accountList);
             Assert.NotNull(Database.transactionsList);
@@ -36,10 +36,8 @@ namespace BankAppTest
 
 
         [Fact]
-        public void CreateBankAccountTest()
+        public void GetCreateBankAccountTest()
         {
-         
-          
             //Expected
             string name = "Kunle Ado.Net";
             
